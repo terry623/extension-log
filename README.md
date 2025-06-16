@@ -85,31 +85,9 @@ To use with a different path, modify the `LOG_FILE_PATH` constant in `src/extens
 - Continue extension with autocomplete logging enabled
 - Node.js for development
 
-## Known Issues
-
-- Currently hardcoded to read from a specific user path
-- Only displays the latest 5 log entries
-- Requires Continue extension to be installed and configured
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/your-feature`
-3. Make your changes
-4. Compile and test: `npm run compile`
-5. Submit a pull request
-
 ## License
 
 This project is open source. Please check the license file for details.
-
-## Changelog
-
-### [0.0.1] - Initial Release
-- Basic JSONL file reading functionality
-- Command palette integration
-- Formatted JSON output display
-- Error handling for invalid entries
 
 ---
 
